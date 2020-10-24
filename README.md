@@ -1,2 +1,2 @@
-# educational-app-for-young-women
+# EduAppForYoungWomen
 Project for virtual hackathon Technica 2020!
