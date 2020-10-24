@@ -41,6 +41,10 @@ header a.logo {
       font-size: 30px;
   }
 
+  main, form, input {
+    font-family: "Times New Roman", serif; /* temporary for now until we decide on a font */
+  }
+
   /* div.name-and-email {
       display: flex;
       align-items: center;
