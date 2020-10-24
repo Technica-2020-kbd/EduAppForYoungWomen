@@ -1,0 +1,95 @@
+header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+}
+
+header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+ nav {
+    float: right;
+    margin-right: 10em;
+
+  }
+
+nav a {
+    font-size: 2em;
+}
+
+header a.logo {
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  .title {
+      font-size: 30px;
+  }
+
+  /* div.name-and-email {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  textarea.questionbox {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  } */
+
+  /* .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* flex-direction: column; */
+  } */
+
+input[type="text"] {
+    width: 150%;
+    padding: 12px;
+}
+
+label {
+    font-size: 20px;
+}
+
+/* for form field placeholders */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif; /* temporary for now until we decide on a font */
+}
+
+/* https://www.w3schools.com/howto/howto_css_contact_form.asp */
+input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border-radius: 4px; /* Rounded borders */
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=submit] {
+      background-color: #0071F5;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 20px;
+      border-radius: 12px;
+      border: solid black 1px;
+  }
