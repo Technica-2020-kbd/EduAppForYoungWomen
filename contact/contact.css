@@ -1,3 +1,4 @@
+/* banner styles */
 header {
     overflow: hidden;
     background-color: #f1f1f1;
@@ -30,6 +31,12 @@ header a.logo {
     font-weight: bold;
   }
 
+  a.nav-link:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+
+/* page styles */
   .title {
       font-size: 30px;
   }
@@ -67,7 +74,7 @@ label {
 /* for form field placeholders */
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     font-size: 15px;
-    font-family: "Times New Roman", Times, serif; /* temporary for now until we decide on a font */
+    font-family: "Times New Roman", serif; /* temporary for now until we decide on a font */
 }
 
 /* https://www.w3schools.com/howto/howto_css_contact_form.asp */
