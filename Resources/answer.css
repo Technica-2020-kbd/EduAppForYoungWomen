@@ -55,7 +55,7 @@ header a.logo {
     overflow: hidden;
   }
 
-  .about-text {
+  .container {
     border: 4px solid black;
     padding: 10px;
     margin-top: 10px;
@@ -69,7 +69,7 @@ header a.logo {
 
   /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
-  .about-text {
+  .container {
     margin-bottom: 50px;
   }
 
@@ -88,17 +88,17 @@ nav a {
   text-align: left;
 }
 
-  .div-img {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    border: solid black 5px;
-  }
+.div-img {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border: solid black 5px;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-  .about-text {
+  .container {
     width: 50%;
     margin-bottom: 10px;
   }

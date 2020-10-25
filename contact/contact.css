@@ -74,11 +74,6 @@ header a.logo {
     /* flex-direction: column; */
   } */
 
-input[type="text"] {
-    width: 150%;
-    padding: 12px;
-}
-
 label {
     font-size: 20px;
 }
@@ -119,4 +114,22 @@ input[type=text], textarea {
   .div-img {
     display: flex;
     justify-content: center;
+  }
+
+  @media screen and (max-width: 600px) {
+    nav {
+      float: left;
+      margin-top: 50px;
+    }
+    
+    nav a {
+      width: 100%;
+      text-align: left;
+    }
+
+    /* Doesn't work for some reason. Ignore and comment out for now. */
+    /* .div-img {
+      overflow: hidden;
+      border: solid black 5px;
+    } */
   }
