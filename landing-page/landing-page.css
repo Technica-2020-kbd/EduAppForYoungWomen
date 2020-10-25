@@ -24,13 +24,41 @@ header a {
     color: white;
   }
 
- nav {
+  nav {
     float: right;
     margin-right: 10em;
+    display: flex;
+    align-items: center;
   }
-nav a {
+
+.nav-link {
     font-size: 2em;
 }
+
+button.nav-link {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 12px;
+}
+
+.dropdown-options {
+  visibility: hidden;
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  background-color: black;
+}
+
+.dropdown-options a {
+  text-align: left;
+}
+
+.visible {
+  visibility: visible;
+  display: block;
+}
+
 header a.logo {
     font-size: 3em;
     font-weight: bold;
@@ -47,13 +75,13 @@ header a.logo {
       margin-right: 0px;
   }
 
-  ul {
+  ul.questions {
     list-style-type: none;
     margin-left: -40px;
     margin-top: -5px;
   }
 
-  li {
+  ul.questions li {
     margin-bottom: -15px;
   }
 
@@ -99,13 +127,13 @@ img {
 .buttons {
   flex: left;
 }
-button {
+button.question-landing {
     width: 150%;
     padding: 12px;
 }
 
 /* https://www.w3schools.com/howto/howto_css_contact_form.asp */
-button, textarea {
+button.question-landing, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border-radius: 4px; /* Rounded borders */
@@ -115,11 +143,11 @@ button, textarea {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
 
-  textarea, button {
+  textarea, button.question-landing {
     border: 2px solid black;
   }
 
-  button {
+  button.question-landing {
       background-color: rgb(147, 178, 211);
       color: white;
       padding-left: 20px;
@@ -134,7 +162,7 @@ button, textarea {
 
   /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
-  ul {
+  ul.questions {
     margin-bottom: 50px;
   }
 
@@ -185,7 +213,7 @@ nav a {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-  ul {
+  ul.questions {
     width: 100%;
     margin-bottom: 10px;
   }
