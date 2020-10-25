@@ -1,8 +1,15 @@
+html {
+  background-color: pink;
+  font-family: "Poppins", serif; /* temporary for now until we decide on a font */
+}
+
 /* banner styles */
 header {
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
+    font-family: "Poppins", serif; /* temporary for now until we decide on a font */
+    background-color: black;
 }
 
 header a {
@@ -14,6 +21,7 @@ header a {
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
+    color: white;
   }
 
  nav {
@@ -32,7 +40,7 @@ header a.logo {
   }
 
   a.nav-link:hover {
-    color: blue;
+    color: #70bfff;;
     text-decoration: underline;
   }
 
@@ -40,6 +48,10 @@ header a.logo {
   .title {
       font-size: 30px;
   }
+
+  /* main, form, input {
+    font-family: "Times New Roman", serif; /* temporary for now until we decide on a font */
+  } */
 
   /* div.name-and-email {
       display: flex;
@@ -74,7 +86,7 @@ label {
 /* for form field placeholders */
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     font-size: 15px;
-    font-family: "Times New Roman", serif; /* temporary for now until we decide on a font */
+    font-family: "Poppins", serif; /* temporary for now until we decide on a font */
 }
 
 /* https://www.w3schools.com/howto/howto_css_contact_form.asp */
@@ -82,11 +94,14 @@ input[type=text], textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border-radius: 4px; /* Rounded borders */
-    border: 1px solid #ccc; /* Gray border */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  textarea, input[type=text] {
+    border: 2px solid black;
   }
 
   input[type=submit] {
@@ -99,4 +114,9 @@ input[type=text], textarea {
       font-size: 20px;
       border-radius: 12px;
       border: solid black 1px;
+  }
+
+  .div-img {
+    display: flex;
+    justify-content: center;
   }
