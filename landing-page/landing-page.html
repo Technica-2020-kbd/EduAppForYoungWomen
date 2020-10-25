@@ -3,41 +3,63 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+    <script src="../nav_dropdown_script.js"></script>
     <title>repl.it</title>
-    <link href="home.css" rel="stylesheet" type="text/css" />
+    <link href="landing-page.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
   </head>
   <body>
     <!--HEADER-->
     <header class="header">
-        <a class="logo" href="/landing/landing-page.html"> App logo </a>
+        <a class="logo" href="landing-page.html"> App logo </a>
         <nav class="right">
-            <a class="nav-link" href="../about/about.html">About</a>
-            <a class="nav-link" href="../contact.html">Contact Us</a>
-        </nav>
+          <a class="nav-link" href="../about/about.html">About</a>
+          <a class="nav-link" href="../contact/contact.html">Contact Us</a>
+          <div class="nav-dropdown">
+              <button class="nav-link">Questions</button>
+              <div class="dropdown-content">
+                  <ul class="dropdown-options">
+                      <li><a href="../Resources/WhatIsAPeriod/answer.html">What is a period?</a></li>
+                      <li><a href="../Resources/HowDoIKnow/answer.html">How do I know if I'm getting my period?</a></li>
+                      <li><a href="../Resources/WhatIsTheMenstrualCycle/answer.html">What is the menstrual cycle?</a></li>
+                      <li><a href="../Resources/WhatCanIUse/answer.html">What can I use for my period?</a></li>
+                      <li><a href="../Resources/HowDoIMakeHurtLess/answer.html">How do I make my period hurt less?</a></li>
+                      <li><a href="../Resources/IronDefiency/answer.html">How can I deal with iron deficiency?</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
     </header>
 
     <main>
       <div class="title">
         <h1 class="welcome">Welcome! How can we help you today?</h1>
       </hr>
-        <ul>
-          <li><a href="../WhatIsAPeriod/answer.html"><button>What is a period?</button></a></li>
-          <li><a href="../HowDoIKnow"><button>How do I know if I'm getting my period?</button></a></li>
-          <li><a href="../WhatIsTheMenstrualCycle/answer.html"><button>What is the menstrual cycle?</button></a></li>
-          <li><a href="../WhatCanIUse/answer.html"><button>What can I use for my period?</button></a></li>
-          <li><a href="../HowDoIMakeHurtLess/answer.html"><button>How do I make my period hurt less?</button></a></li>
-          <li><a href="../IronDeficiency/answer.html"><button>How can I deal with iron deficiency?</button></a></li>
+        <ul class="questions">
+          <li><a href="../Resources/WhatIsAPeriod/answer.html"><button class="question-landing">What is a period?</button></a></li>
+          <li><a href="../Resources/HowDoIKnow/answer.html"><button class="question-landing">How do I know if I'm getting my period?</button></a></li>
+          <li><a href="../Resources/WhatIsTheMenstrualCycle/answer.html"><button class="question-landing">What is the menstrual cycle?</button></a></li>
+          <li><a href="../Resources/WhatCanIUse/answer.html"><button class="question-landing">What can I use for my period?</button></a></li>
+          <li><a href="../Resources/HowDoIMakeHurtLess/answer.html"><button class="question-landing">How do I make my period hurt less?</button></a></li>
+          <li><a href="../Resources/IronDeficiency/answer.html"><button class="question-landing">How can I deal with iron deficiency?</button></a></li>
         </ul>
       </div>
 
       <div class="div-img"><img src="https://image.flaticon.com/icons/png/128/3131/3131808.png"></div>
     </main>
 
-    <footer>
+    <!-- <footer>
         <div class="footer-note">
-        <p class="technica">A Technica 2020 project made with ❤️ by Brooklyn F., Diana N., and Katherine P.</p>
+        <p>A <a href="https://gotechnica.org/">Technica 2020</a> project made with ❤️ by Brooklyn F., Diana N., and Katherine P.</p>
         </div>
-    </footer>
+    </footer> -->
+
+    <!--Until we figure out how to fix weird gap at the bottom, let's stick with this for now.-->
+    <footer>
+        <p>A <a href="https://gotechnica.org/">Technica 2020</a> project made with ❤️ by Brooklyn F., Diana N., and Katherine P.</p>
+  </footer>
 
     <script src="script.js"></script>
   </body>
