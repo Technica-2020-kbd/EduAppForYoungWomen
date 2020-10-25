@@ -6,6 +6,7 @@ Our goal was to create a web application that helps young girls and women learn 
 
 # Images and Icons
 The following images were created by Freepik and found on www.flaticon.com:
+* [Landing page image](https://www.flaticon.com/free-icon/virgo_3131808?term=girl&page=1&position=15)
 * [About page image](https://www.flaticon.com/free-icon/peruvian_3284076?term=girl&page=1&position=23)
 * [Contacts page image](https://www.flaticon.com/free-icon/black-cat_2213643?term=kawaii&page=1&position=71)
 * [Stomach cramp](https://www.flaticon.com/free-icon/stomach_2599536?term=cramp&page=1&position=8)
