@@ -26,10 +26,36 @@ header a {
  nav {
     float: right;
     margin-right: 10em;
+    display: flex;
+    align-items: center;
   }
 
-nav a {
+.nav-link {
     font-size: 2em;
+}
+
+button.nav-link {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 12px;
+}
+
+.dropdown-options {
+  visibility: hidden;
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  background-color: black;
+}
+
+.dropdown-options a {
+  text-align: left;
+}
+
+.visible {
+  visibility: visible;
+  display: block;
 }
 
 header a.logo {
@@ -37,7 +63,7 @@ header a.logo {
     font-weight: bold;
   }
 
-  a.nav-link:hover {
+  a.nav-link:hover, button.nav-link:hover {
     color: #70bfff;
     text-decoration: underline;
   }
@@ -81,6 +107,7 @@ header a.logo {
 nav {
   float: left;
   margin-top: 50px;
+  flex-direction: column;
 }
 
 nav a {
