@@ -74,7 +74,7 @@ header a.logo {
     /* flex-direction: column; */
   } */
 
-input[type="text"] {
+button[type="text"] {
     width: 150%;
     padding: 12px;
 }
@@ -90,7 +90,7 @@ label {
 }
 
 /* https://www.w3schools.com/howto/howto_css_contact_form.asp */
-input[type=text], textarea {
+button[type=text], textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border-radius: 4px; /* Rounded borders */
@@ -100,11 +100,11 @@ input[type=text], textarea {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
 
-  textarea, input[type=text] {
+  textarea, button[type=text] {
     border: 2px solid black;
   }
 
-  input[type=submit] {
+  button[type=submit] {
       background-color: #0071F5;
       color: white;
       padding-left: 20px;
