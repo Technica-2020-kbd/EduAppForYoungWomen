@@ -1,1 +1,226 @@
+html {
+  background-color: pink;
+  font-family: "Poppins", serif; /* temporary for now until we decide on a font */
+}
+
+/* banner styles */
+header {
+    overflow: hidden;
+    background: #f1f1f1;
+    padding: 20px 10px;
+    font-family: "Poppins", serif; /* temporary for now until we decide on a font */
+    background: black;
+}
+
+header a {
+    float: left;
+    background: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    color: white;
+  }
+
+  nav {
+    float: right;
+    margin-right: 10em;
+    display: flex;
+    align-items: center;
+  }
+
+.nav-link {
+    font-size: 2em;
+}
+
+button.nav-link {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 12px;
+}
+
+.dropdown-options {
+  visibility: hidden;
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  background-color: black;
+}
+
+.dropdown-options a {
+  text-align: left;
+}
+
+.visible {
+  visibility: visible;
+  display: block;
+}
+
+header a.logo {
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  a.nav-link:hover {
+    color: #70bfff;;
+    text-decoration: underline;
+  }
+
+/* page styles */
+  .title {
+      font-size: 27px;
+      margin-right: 0px;
+  }
+
+  ul.questions {
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: -5px;
+  }
+
+  ul.questions li {
+    margin-bottom: -15px;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h3 {
+    font-size: 30;
+  }
+
+img {
+  width: 250px;
+  height: 250px;
+  margin-top: 70px;
+}
+
+/*Footer*/
+
+  .footer-note {
+    position: relative; 
+    bottom: 2px; 
+    background: #E4E4E4;
+    height: 50px;
+    width: 450px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 4px;
+  }
+
+  .technica {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+/*Buttons*/
+.buttons {
+  flex: left;
+}
+button.question-landing {
+    width: 150%;
+    padding: 12px;
+}
+
+/* https://www.w3schools.com/howto/howto_css_contact_form.asp */
+button.question-landing, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  textarea, button.question-landing {
+    border: 2px solid black;
+  }
+
+  button.question-landing {
+      background-color: rgb(147, 178, 211);
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 20px;
+      border-radius: 12px;
+      border: solid black 1px;
+      cursor: pointer;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  ul.questions {
+    margin-bottom: 50px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+nav {
+  float: left;
+  margin-top: 50px;
+}
+
+nav a {
+  width: 100%;
+  text-align: left;
+}
+
+  .div-img {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border: solid black 2px;
+    margin-bottom: 20px;
+  }
+
+  .div-img img {
+    margin-bottom: 30px;
+  }
+
+  .footer-note {
+    position: relative; 
+    bottom: 2px; 
+    top: 2px;
+    background: #E4E4E4;
+    height: 60px;
+    width: 335px;
+    margin-top: 5px;
+    border-radius: 25px;
+  }
+
+  .technica {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  ul.questions {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 
